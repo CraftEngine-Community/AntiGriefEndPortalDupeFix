@@ -48,7 +48,7 @@ public final class AntiGriefEndPortalDupeFix extends JavaPlugin implements Liste
         return this.antiGrief = AntiGriefLib.builder(this)
                 .ignoreOP(true)
                 .silentLogs(false)
-                .bypassPermission("fixantigriefpluginblockdupe.bypass")
+                .bypassPermission("antigriefendportaldupefix.bypass")
                 .build();
     }
 }
